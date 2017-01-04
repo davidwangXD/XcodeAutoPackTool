@@ -527,19 +527,21 @@ do
 			echo "--------------------------------------------------------------------------------"
 			changeBundleID;
 			echo "--------------------------------------------------------------------------------"
-			logBuildSettings
-			echo "--------------------------------------------------------------------------------"
+			
 			
 			read -p "[*] Start Packing Process...???" SHOULD_START;
 
 			start_time=`date +%s`;
 
 			# Preparing build folder
-			# echo -e "\n============================ Preparing build folder ============================\n"
+			echo -e "\n=========================== Preparing output folder ============================\n"
 			if [ -d "$OUTPUT_PATH" ]; then 
 			    rm -rf "$OUTPUT_PATH";
 			fi;
 			mkdir "$OUTPUT_PATH";
+
+			logBuildSettings
+			echo "--------------------------------------------------------------------------------"
 
 			if [ -e "${WORKSPACE}/Podfile" ]; then
 				buildWithWorkspace;
