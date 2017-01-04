@@ -1,19 +1,20 @@
 README
 
-Xcode Auto Pack IPA Tool, Latest: 1.1.3
-by David Wang 2016/12/26
+Xcode Auto Pack IPA Tool, Latest: 1.1.3  
+by David Wang 2016/12/26  
 Skywind, Inc.
 
-簡介：
+簡介：  
 利用 xcodebuile 打包專案製作 .ipa
 不需輸入任何指令或預先修改bundle id
 
-功能：
-- 偵測相關套件安裝狀態：
-	xcodebuile 指令
-	xcode 命令列工具
-	xcpretty 套件（用於美化 xcodebuile 輸入結果）
-	cocoapods 套件（ Xcode 專案的套件管理工具）
+功能：  
+
+- 偵測相關套件安裝狀態：  
+   xcodebuile 指令  
+   xcode 命令列工具  
+   xcpretty 套件（用於美化 xcodebuile 輸入結果）  
+   cocoapods 套件（ Xcode 專案的套件管理工具）
 - 安裝上述相關套件
 - 切換 Xcode 版本
 - 拖拉方式取得專案資料夾位置
@@ -38,22 +39,22 @@ Skywind, Inc.
 
 版本：
 1.0 (2016/12/28)
-	>可正常編譯風行天專案
-	>加入自動製作選項功能，減少使用者要自行輸入的步驟
+>可正常編譯風行天專案  
+>加入自動製作選項功能，減少使用者要自行輸入的步驟
 
 1.1 (2016/12/29)
-	>加入自動偵測專案是否使用 CocoaPods 工具
+>加入自動偵測專案是否使用 CocoaPods 工具
 
 1.1.1 (2016/12/29)
-	>加入輸出結果判斷
-	>加入自動判斷專案是否使用 CocoaPods
-	>修改目錄選單
-	>整合偵測相關套件安裝狀態功能
+>加入輸出結果判斷  
+>加入自動判斷專案是否使用 CocoaPods  
+>修改目錄選單  
+>整合偵測相關套件安裝狀態功能
 
 1.1.2 (2016/12/30)
-	>修正複製 .mobileprovisioning 到系統 Library 中路徑錯誤 bug
-	>加入選擇是否執行 pod update 的功能
+>修正複製 .mobileprovisioning 到系統 Library 中路徑錯誤 bug  
+>加入選擇是否執行 pod update 的功能
 
 1.1.3 (2017/01/03)
-	>修正覆蓋 .xcodeproj 專案檔設定時，沒有覆蓋開發團隊造成的問題
-	>新增儲存編譯參數到 log 的功能
+>修正覆蓋 .xcodeproj 專案檔設定時，沒有覆蓋開發團隊造成的問題  
+>新增儲存編譯參數到 log 的功能
