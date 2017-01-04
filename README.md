@@ -5,6 +5,7 @@ by David Wang 2016/12/26
 Skywind, Inc.
 
 簡介：  
+
 利用 xcodebuile 打包專案製作 .ipa
 不需輸入任何指令或預先修改bundle id
 
@@ -34,10 +35,12 @@ Skywind, Inc.
 - 判斷輸出結果
 - 計算編譯花費時間
 
-使用：
+使用：  
+
 在終端機輸入 chmod a+x ，最後有一個空格，然後將 XcodeAutoPackTool.command 檔案拖移至終端機按 Enter ，完成後就可以以點兩下方式執行 XcodeAutoPackTool.command 了。
 
-版本：
+版本：  
+
 1.0 (2016/12/28)
 >可正常編譯風行天專案  
 >加入自動製作選項功能，減少使用者要自行輸入的步驟
