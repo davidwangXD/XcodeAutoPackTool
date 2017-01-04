@@ -1,6 +1,6 @@
 README
 
-Xcode Auto Pack IPA Tool, Latest: 1.1.2
+Xcode Auto Pack IPA Tool, Latest: 1.1.3
 by David Wang 2016/12/26
 Skywind, Inc.
 
@@ -33,24 +33,27 @@ Skywind, Inc.
 - 判斷輸出結果
 - 計算編譯花費時間
 
+使用：
+在終端機輸入 chmod a+x ，最後有一個空格，然後將 XcodeAutoPackTool.command 檔案拖移至終端機按 Enter ，完成後就可以以點兩下方式執行 XcodeAutoPackTool.command 了。
+
 版本：
 1.0 (2016/12/28)
-	可正常編譯風行天專案
-	加入自動製作選項功能，減少使用者要自行輸入的步驟
+	>可正常編譯風行天專案
+	>加入自動製作選項功能，減少使用者要自行輸入的步驟
 
 1.1 (2016/12/29)
-	加入自動偵測專案是否使用 CocoaPods 工具
+	>加入自動偵測專案是否使用 CocoaPods 工具
 
 1.1.1 (2016/12/29)
-	加入輸出結果判斷
-	加入自動判斷專案是否使用 CocoaPods
-	修改目錄選單
-	整合偵測相關套件安裝狀態功能
+	>加入輸出結果判斷
+	>加入自動判斷專案是否使用 CocoaPods
+	>修改目錄選單
+	>整合偵測相關套件安裝狀態功能
 
 1.1.2 (2016/12/30)
-	修正複製 .mobileprovisioning 到系統 Library 中路徑錯誤 bug
-	加入選擇是否執行 pod update 的功能
+	>修正複製 .mobileprovisioning 到系統 Library 中路徑錯誤 bug
+	>加入選擇是否執行 pod update 的功能
 
 1.1.3 (2017/01/03)
-	修正覆蓋 .xcodeproj 專案檔設定時，沒有覆蓋開發團隊造成的問題
-	新增儲存編譯參數到 log 的功能
+	>修正覆蓋 .xcodeproj 專案檔設定時，沒有覆蓋開發團隊造成的問題
+	>新增儲存編譯參數到 log 的功能
